@@ -1,4 +1,4 @@
-# Anotações
+# Anotações :notebook:
 ## Git
 
 **git remote add origin [endereço]**
