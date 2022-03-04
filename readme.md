@@ -23,6 +23,12 @@ Exemplo: *git reset --hard*
 
 
 
+**git commit -a**
+git add + git commit
+Exemplo: *git commit -a -m "feat: adding new file"*
+
+
+
 ## ElasticSearch
 
 **POST indice/_doc/id**
