@@ -23,7 +23,22 @@ Exemplo: *git reset --hard*
 
 
 
+## ElasticSearch
 
+**POST indice/_doc/id**
+Adiciona documento com id especifico, se o índice não existir já cria dinamicamente incluindo o mapping.
+Exemplo: 
+
+POST person/_doc/1234
+{
+	"name": "Ulysses",
+	"interests": {"nodejs", "react", "git"}
+}
+
+**GET indice/_mapping**
+Busca informações do mapping
+Exemplo: 
+GET person/_mapping
 
 
 
