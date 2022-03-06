@@ -1,7 +1,7 @@
 # Anotações :notebook:
 
 ## Visual Studio Code
-###Shortcuts
+### Shortcuts
 Ctrl + P
 Pesquisa arquivos.
 
