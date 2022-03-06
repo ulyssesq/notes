@@ -1,4 +1,13 @@
 # Anotações :notebook:
+
+## Visual Studio Code
+###Shortcuts
+Ctrl + P
+Pesquisa arquivos.
+
+Ctrl + Shift + P
+Pesquisa comandos.
+
 ## Git
 
 **git remote add origin [endereço]**
