@@ -10,7 +10,7 @@ git config user.name "seu nome" # altera o usuário
 git config --local user.name # apenas o repositório atual
 git config --global user.name # todos os repositórios do usuario logado
 git config --system user.name # todos os repositórios do sistema independente de usuário
-git config --show-origin user.name # exibe o caminho do arquivo de onde a configuração (neste caso nome do usuário) esta sendo usada
+git config --show-origin user.name # exibe qual arquivo a configuração esta sendo usada
 
 # Configurar e-mail
 git config --global user.email "seu@email.com"
@@ -72,6 +72,21 @@ git merge nome_da_branch
 # Altera o nome do branch atual
 git branch -M main
 
+```
+
+# Stash
+```bash
+# Salva as alterações na pilha de stash
+git stash
+
+# Exibe a pilha de stash
+git stash list
+
+# Aplica a ultima alteração da stash e remove
+git stash pop
+
+# Aplica a última alteração da stash sem remover
+git stash apply
 ```
 
 # Atualizações remotas
